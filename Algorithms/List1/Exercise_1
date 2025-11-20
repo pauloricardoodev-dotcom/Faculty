@@ -1,0 +1,20 @@
+algoritmo "semnome"
+// Funcao : Salario aumento
+// Autor : Paulo Ricardo
+// Data : 07/08/2025
+// Secao de Declaracoes 
+var
+    nome: caracter
+    salario, aumento: real
+inicio
+// Secao de Comandos
+    escreva("                        por favor insira seu nome: ")
+    leia(nome)
+    escreva("para adicionarmos 28% cite seu salario atualmente: ")
+    leia(salario)
+    
+    aumento <- salario * 0.285
+    salario <- salario + aumento
+    
+    escreva("parabéns", nome, "seu salario agora é", salario)
+fimalgoritmo
