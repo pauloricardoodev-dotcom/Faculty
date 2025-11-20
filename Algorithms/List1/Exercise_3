@@ -1,0 +1,20 @@
+algoritmo "Calcula_Area_Triangulo"
+// Funcao : area triangulo
+// Autor : Paulo Ricardo
+// Data : 07/08/2025
+// Secao de Declaracoes 
+var
+  base, altura: inteiro
+inicio
+// Secao de Comandos 
+escreva("descubra a area de um triangulo!")
+escreval
+escreval
+escreva("por favor me diga a base do seu triangulo: ")
+leia(base)
+escreva("por favor me diga a altura do seu triangulo: ")
+leia(altura)
+escreval
+escreval
+escreva("a area do seu triangulo é: ", (base * altura)/ 2)
+fimalgoritmo
