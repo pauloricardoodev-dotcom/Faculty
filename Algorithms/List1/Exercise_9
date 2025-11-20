@@ -1,0 +1,20 @@
+algoritmo "semnome"
+// Funcao : Volume prisma retangular
+// Autor : Paulo Ricardo
+// Data : 09/08/2025
+// Secao de Declaracoes 
+var
+  compBMe, compBMa, altura: real
+inicio
+// Secao de Comandos 
+   escreva("vamos descobreir o volume de um prisma retangular")
+   escreval
+   escreva("Por favor insira o valor da base menor: ")
+   leia(compBMe)
+   escreva("agora insira o valor da base maior: ")
+   leia(compBMa)
+   escreva("Tamb�m ser� necessario a altura: ")
+   leia(altura)
+   escreval
+   escreva("o volume do prisma é: ", compBMe*compBMa*altura)
+fimalgoritmo
