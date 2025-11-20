@@ -1,0 +1,20 @@
+algoritmo "Calcula_Area_Circulo"
+// Funcao : area do circulo
+// Autor : Paulo Ricardo
+// Data : 07/08/2025
+// Secao de Declaracoes 
+var
+  raio, area: real
+inicio
+// Secao de Comandos 
+  escreva("vamos descobrir a area do seu circulo!")
+  escreval
+  escreval
+  escreva("por favor me diga o raio do circulo: ")
+  leia(raio)
+  
+  area <- (raio * raio) * 3.1416
+  
+  escreva("A area do seu circulo é: ", area)
+  
+fimalgoritmo
