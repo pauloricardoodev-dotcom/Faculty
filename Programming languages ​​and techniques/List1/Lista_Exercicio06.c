@@ -13,5 +13,5 @@ main(){
 	dob = num*2;
 	trip = num*3;
 	
-	printf("o dobro é: %.2f, e o triplo é: %.2f", dob, trip);
+	printf("o dobro Ã©: %.2f, e o triplo Ã©: %.2f", dob, trip);
 }
