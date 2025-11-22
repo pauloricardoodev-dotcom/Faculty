@@ -1,17 +1,17 @@
 algoritmo "EXERCICIO6"
-// Função : CONFIRMAÇÃO DE TAMANHO E APRESENTANDO ULTIMOS 3
+// FunÃ§Ã£o : CONFIRMAÃ‡ÃƒO DE TAMANHO E APRESENTANDO ULTIMOS 3
 // Autor : PAULO RICARDO R.A: 25013765-2
 // Data : 29/08/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
   string, sabugo:caracter
   tam,x, ultLet:inteiro
 inicio
-// Solicite uma string com mínimo 5 e máximo 20 caracteres e exiba os 3 últimos caracteres.
+// Solicite uma string com mÃ­nimo 5 e mÃ¡ximo 20 caracteres e exiba os 3 Ãºltimos caracteres.
 escreval("Seja muito bem vindo!")
 
 escreval
-escreva("Insira uma palavra ou texto (no mínimo 8 caracteres): ")
+escreva("Insira uma palavra ou texto (no mÃ­nimo 8 caracteres): ")
 leia(string)
 
 tam <- compr(string)
@@ -20,7 +20,7 @@ ultLet <- tam - 2
 se (tam >= 5) e (tam <= 20) entao
  escreval("Texto Salvo muito obrigado")
  sabugo <- copia(string,ultLet,tam)
- escreval("as 3 ultimas letras do seu texto são: ", sabugo)
+ escreval("as 3 ultimas letras do seu texto sÃ£o: ", sabugo)
    senao
     repita
      escreval
@@ -33,7 +33,7 @@ se (tam >= 5) e (tam <= 20) entao
     
     escreval("Texto Salvo muito obrigado")
     sabugo <- copia(string,ultLet,tam)
-    escreval("as 3 ultimas letras do seu texto são: ", sabugo)
+    escreval("as 3 ultimas letras do seu texto sÃ£o: ", sabugo)
     escreval
     escreval
 fimse
