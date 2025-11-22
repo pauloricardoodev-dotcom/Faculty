@@ -11,7 +11,7 @@ main(){
 	
 	printf("\n");
 	for(x=1; x<=3 ; x++){
-		printf("\n Por favor isira a %dº idade: ", x);
+		printf("\n Por favor isira a %dÂº idade: ", x);
 		scanf("%d", &idade);
 		
 		media = media + idade;
@@ -19,5 +19,5 @@ main(){
 	
 	media = media/3;
 	
-	printf("\na média das idades é %1.f", media);
+	printf("\na mÃ©dia das idades Ã© %1.f", media);
 }
