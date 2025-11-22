@@ -1,13 +1,13 @@
 algoritmo "semnome"
-// Função : area triangulo
+// FunÃ§Ã£o : area triangulo
 // Autor : Paulo Ricardo
 // Data : 07/08/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
   base, altura: inteiro
 inicio
-// Seção de Comandos 
-escreva("descubra a area de um triângulo!")
+// SeÃ§Ã£o de Comandos 
+escreva("descubra a area de um triÃ¢ngulo!")
 escreval
 escreval
 escreva("por favor me diga a base do seu triangulo: ")
@@ -16,5 +16,5 @@ escreva("por favor me diga a altura do seu triangulo: ")
 leia(altura)
 escreval
 escreval
-escreva("a area do seu triangulo é: ", (base * altura)/ 2)
+escreva("a area do seu triangulo Ã©: ", (base * altura)/ 2)
 fimalgoritmo
