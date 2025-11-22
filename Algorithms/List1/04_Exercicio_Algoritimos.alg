@@ -1,12 +1,12 @@
 algoritmo "semnome"
-// Função : area do circulo
+// FunÃ§Ã£o : area do circulo
 // Autor : Paulo Ricardo
 // Data : 07/08/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
   raio, area: real
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
   escreva("vamos descobrir a area do seu circulo!")
   escreval
   escreval
@@ -15,6 +15,6 @@ inicio
   
   area <- (raio * raio) * 3.1416
   
-  escreva("A area do seu circulo é: ", area)
+  escreva("A area do seu circulo Ã©: ", area)
   
 fimalgoritmo
