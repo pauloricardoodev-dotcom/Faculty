@@ -1,17 +1,17 @@
 algoritmo "EXERCICIO3"
-// Função : MEDIADOR DE IDADES
+// FunÃ§Ã£o : MEDIADOR DE IDADES
 // Autor : PAULO RICARDO R.A 25013765-2
 // Data : 09/10/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
    v: vetor[0..6] de inteiro
    x, y, id, soma: inteiro
 inicio
 // Elaborar um algoritmo que solicite e armazene em um vetor, as idades de 7
-// pessoas. Posteriormente, apresente a Média das Idades.
+// pessoas. Posteriormente, apresente a MÃ©dia das Idades.
  escreval
  escreval
- escreval("               Olá Seja bem vindo ao mediador de idades!")
+ escreval("               OlÃ¡ Seja bem vindo ao mediador de idades!")
 
  escreval
  escreval
@@ -21,7 +21,7 @@ inicio
  escreval
 
  para x de 0 ate 6 faca
-     escreva("'    insira a ", x +1, "º idade: ")
+     escreva("'    insira a ", x +1, "Âº idade: ")
      leia(id)
 
      v[x] <- id
@@ -34,7 +34,7 @@ inicio
  escreval("----------------------------------------------------------------------------------")
 
  escreval
- escreva("                         A média das idades é: ")
+ escreva("                         A mÃ©dia das idades Ã©: ")
  escreva(soma/x:3:2)
 
  escreval
