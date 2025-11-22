@@ -1,8 +1,8 @@
 algoritmo "EXERCICIO5"
-// Função : APRESENTADOR NORMAL E INVERSO
+// FunÃ§Ã£o : APRESENTADOR NORMAL E INVERSO
 // Autor : PAULO RICARDO R.A 25013765-2
 // Data : 09/10/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
    v1, v2: vetor[0..7] de inteiro
    x, y, n: inteiro
@@ -11,7 +11,7 @@ inicio
 // outro (V2) em ordem inversa.
  escreval
  escreval
- escreval("               Olá Seja bem vindo ao apresentador dobrado!")
+ escreval("               OlÃ¡ Seja bem vindo ao apresentador dobrado!")
 
  escreval
  escreval
@@ -21,7 +21,7 @@ inicio
  escreval
 
     para x de 0 ate 7 faca
-        escreva("'    insira o ", x +1, "º valor: ")
+        escreva("'    insira o ", x +1, "Âº valor: ")
         leia(n)
         v1[x] <- n
     fimpara
