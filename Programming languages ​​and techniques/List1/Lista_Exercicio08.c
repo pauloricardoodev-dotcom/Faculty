@@ -12,5 +12,5 @@ main(){
 	
 	dolar = real / 5.46;
 	
-	printf("valor em dolar é: %.2f", dolar);
+	printf("valor em dolar Ã©: %.2f", dolar);
 }
