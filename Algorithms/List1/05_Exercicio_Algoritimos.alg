@@ -1,12 +1,12 @@
 algoritmo "semnome"
-// Função : Perimetro Area
+// FunÃ§Ã£o : Perimetro Area
 // Autor : Paulo Ricardo
 // Data : 07/08/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
    raio, D, result: real
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
    escreva("vamos descobrir o perimetro do seu circulo")
    escreval
    escreval
@@ -16,5 +16,5 @@ inicio
    D <- 2*raio
    result <- 3.1416 * D
    
-   escreva("seu resuktado é: ", result)
+   escreva("seu resuktado Ã©: ", result)
 fimalgoritmo
