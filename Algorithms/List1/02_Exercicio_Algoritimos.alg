@@ -1,12 +1,12 @@
 algoritmo "semnome"
-// Função : Somar numeros
+// FunÃ§Ã£o : Somar numeros
 // Autor : Paulo Ricardo
 // Data : 07/08/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
   num1, num2: real
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
    escreva("     Seja bem vindo ao somador")
    escreval
    escreval
@@ -16,5 +16,5 @@ inicio
    escreva("agora adicione o numero a ser somado ao primeiro: ")
    leia(num2)
    escreval
-   escreva("o resultado da sua conta é", num1 + num2)
+   escreva("o resultado da sua conta Ã©", num1 + num2)
 fimalgoritmo
