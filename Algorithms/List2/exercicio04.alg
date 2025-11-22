@@ -1,15 +1,15 @@
 algoritmo "EXERCICIO_4"
-// Função : NIVEL ENERGIA
+// FunÃ§Ã£o : NIVEL ENERGIA
 // Autor : PAULO RICARDO R.A: 25013765-2
 // Data : 14/08/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 
   energia :inteiro
   
 inicio
-// Solicitar o nível de energia do personagem (0 a 100). Se for menor que 30, informar “Energia crítica”; se for
-//entre 30 e 70, informar “Energia estável”; se for acima de 70, informar “Energia máxima”.
+// Solicitar o nÃ­vel de energia do personagem (0 a 100). Se for menor que 30, informar â€œEnergia crÃ­ticaâ€; se for
+//entre 30 e 70, informar â€œEnergia estÃ¡velâ€; se for acima de 70, informar â€œEnergia mÃ¡ximaâ€.
    escreva("Seja Bem vindo ao nivelador de energia!")
    escreval
    escreva("Qual seu nivel de energia? : ")
@@ -19,7 +19,7 @@ inicio
       escreva("nivel de energia critico!")
    SENAO
       SE(energia >= 30) E (energia < 70) ENTAO
-        escreva("energia estável")
+        escreva("energia estÃ¡vel")
       SENAO
         SE (energia >= 70) ENTAO
            escreva("ENERGIA MAXIMA")
