@@ -8,7 +8,7 @@ main(){
 	int hdt;
 	float sph;
 	
-	printf("descubra quanto você ganha por hora: ");
+	printf("descubra quanto vocÃª ganha por hora: ");
 	
 	printf("me diga quanto ganhas: ");
 	scanf("%d", &sal);
@@ -18,6 +18,6 @@ main(){
 	
 	sph = sal / hdt;
 	
-	printf("pouco em! Ta quase pobre, seu resultado é: %.2f", sph);
+	printf("pouco em! Ta quase pobre, seu resultado Ã©: %.2f", sph);
 	
 }
