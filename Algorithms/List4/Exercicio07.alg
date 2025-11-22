@@ -1,22 +1,22 @@
 algoritmo "EXERCICIO7"
-// FunÁ„o : APRESENTADOR NUMEROS E NEGATIVOS
+// Fun√ß√£o : APRESENTADOR NUMEROS E NEGATIVOS
 // Autor : PAULO RICARDO R.A 25013765-2
 // Data : 09/10/2025
-// SeÁ„o de DeclaraÁıes
+// Se√ß√£o de Declara√ß√µes
 var
    v: vetor[0..4] de inteiro
    x, negativo: inteiro
    n:inteiro
 inicio
-// Solicite ao usu·rio 5 n˙meros inteiros, guarde-os em um vetor e em seguida
-// apresente-os ao usu·rio. Finalmente, apresente tambÈm quantos elementos
-// s„o negativos.
+// Solicite ao usu√°rio 5 n√∫meros inteiros, guarde-os em um vetor e em seguida
+// apresente-os ao usu√°rio. Finalmente, apresente tamb√©m quantos elementos
+// s√£o negativos.
 
  negativo <- 0
  
  escreval
  escreval
- escreval("    Ol· Seja bem vindo ao apresentador de numeros e apontador de negativos!")
+ escreval("    Ol√° Seja bem vindo ao apresentador de numeros e apontador de negativos!")
 
  escreval
  escreval
@@ -26,7 +26,7 @@ inicio
  escreval
 
     para x de 0 ate 4 faca
-        escreva("'    insira o ", x +1, "∫ n˙mero: ")
+        escreva("'    insira o ", x +1, "¬∫ n√∫mero: ")
         leia(n)
         v[x] <- n
         
@@ -37,12 +37,12 @@ inicio
 
    escreval
    escreval("----------------------------------------------------------------------------------")
-   escreval(" Segue n˙meros armazenados: ")
+   escreval(" Segue n√∫meros armazenados: ")
    para x de 0 ate 4 faca
     escreva(v[x], " | ")
    fimpara
    escreval
    escreval
-   escreval("Quantidade de n˙meros negativos: ", negativo)
+   escreval("Quantidade de n√∫meros negativos: ", negativo)
    escreval("----------------------------------------------------------------------------------")
 fimalgoritmo
