@@ -7,10 +7,10 @@ O objetivo é registrar a evolução no aprendizado de lógica de programação,
 
 A organização segue o formato de pastas por temas ou semanas de estudo:
 
-├── 1º Lisa/
-├── 2º Lisa/
-├── 3º Lisa/
-├── 4º Lisa/
+├── 1º Lisa 30 exercicios /
+├── 2º Lisa 30 exercicios /
+├── 3º Lisa 30 exercicios /
+├── 4º Lisa 30 exercicios /
 ├── Exercicio Bolo de Cenoura/
 
 Cada pasta contém:
