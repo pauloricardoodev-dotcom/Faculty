@@ -1,0 +1,24 @@
+algoritmo "EXERCICIO1"
+// Fun��o : CONTADOR DE CARACTER
+// Autor : PAULO RICARDO R.A: 25013765-2
+// Data : 29/08/2025
+// Se��o de Declara��es 
+var
+   palavra:caracter
+   CarPal:inteiro
+inicio
+//Solicite uma string (palavra ou frase) e exiba a quantidade de caracteres que ela cont�m.
+
+escreval("                       Seja bem vindo ao contador de caracter")
+escreval
+escreva("insira aqui sua palvra ou frase: ")
+leia(palavra)
+
+CarPal <- compr(palavra)
+
+escreval
+escreval
+escreval(" A quantidade de caracteres da palavra ou frase ", palavra, " �", CarPal, " caracteres")
+escreval
+escreval
+fimalgoritmo
