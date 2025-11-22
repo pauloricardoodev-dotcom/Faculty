@@ -1,8 +1,8 @@
 algoritmo "EXERCICIO7"
-// Função : CADA LETRA EM UMA LINHA
+// FunÃ§Ã£o : CADA LETRA EM UMA LINHA
 // Autor : PAULO RICARDO R.A: 25013765-2
 // Data : 29/08/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
   string, letrax:caracter
   x, tam:inteiro
