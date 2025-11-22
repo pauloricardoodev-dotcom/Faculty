@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <locale.h>
+
+main(){
+	setlocale(LC_ALL, "Portuguese");
+	
+	int idade, x=1;
+	float media=0;
+	
+	printf("Bem vindo ao mediador de idades!");
+	
+	printf("\n");
+	do{
+		printf("\n Por favor isira a %d� idade: ", x);
+		scanf("%d", &idade);
+		
+		media = media + idade;
+		x++;
+	}while(x<=3);
+	
+	media = media/3;
+	
+	printf("\na m�dia das idades � %1.f", media);
+}
