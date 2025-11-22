@@ -7,7 +7,7 @@ main(){
 	int n1, n2, n3, soma;
 	float media;
 	
-	printf("vamos calcular a média dentre 3 numeros! ");
+	printf("vamos calcular a mÃ©dia dentre 3 numeros! ");
 		
 	printf("insira o primeiro numero: ");
 	scanf("%d", &n1);
@@ -20,5 +20,5 @@ main(){
 	
 	media = soma / 3;
 	
-	printf("o resultado da media é: %.2f", media);
+	printf("o resultado da media Ã©: %.2f", media);
 }
