@@ -1,32 +1,32 @@
 algoritmo "EXERCICIO_9"
-// Função : VALOR MAIOR
+// FunÃ§Ã£o : VALOR MAIOR
 // Autor : PAULO RICARDO R.A: 25013765-2
 // Data : 15/08/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
    val1, val2, val3 :real
 inicio
-// Solicitar 3 números distintos e apresentar o maior.
+// Solicitar 3 nÃºmeros distintos e apresentar o maior.
     escreva("Seja Bem vindo ao indicador de maior numero!")
     escreval
     escreva("por favor insira o primeiro numero: ")
     leia(val1)
-    escreva("ótimo! Agora insira o segundo numero: ")
+    escreva("Ã³timo! Agora insira o segundo numero: ")
     leia(val2)
-    escreva("ótimo! Agora insira o terceiro numero: ")
+    escreva("Ã³timo! Agora insira o terceiro numero: ")
     leia(val3)
 
     SE(val1 > val2) E (val1 > val3) ENTAO
-      escreva("O 1º numero (",val1,") é o de maior valor!")
+      escreva("O 1Âº numero (",val1,") Ã© o de maior valor!")
       SENAO
            SE(val2 > val1) E (val2 > val3) ENTAO
-              escreva("O 2º numero (",val2,") é o de maior valor!")
+              escreva("O 2Âº numero (",val2,") Ã© o de maior valor!")
            SENAO
                 SE(val3 > val1) E (val3 > val2) ENTAO
-                   escreva("O 3º numero (",val3,") é o de maior valor!")
+                   escreva("O 3Âº numero (",val3,") Ã© o de maior valor!")
                 SENAO
                      SE(val1 = val2) E (val2 = val3) ENTAO
-                        escreva("Os três valores apresentados são iguais em valor!")
+                        escreva("Os trÃªs valores apresentados sÃ£o iguais em valor!")
                      FIMSE
                 FIMSE
            FIMSE
