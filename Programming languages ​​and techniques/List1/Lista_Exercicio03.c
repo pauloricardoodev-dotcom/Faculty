@@ -14,5 +14,5 @@ main(){
 	
 	celpfar = (celcius*9/5) + 32;
 	
-	printf("seu resultado é: %d", celpfar);
+	printf("seu resultado Ã©: %d", celpfar);
 }
