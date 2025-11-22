@@ -12,5 +12,5 @@ main(){
 	ant = num - 1;
 	suc = num + 1;
 	
-	printf("seu numero é %d o antecessor é %d e o sucessor é %d ", num, ant, suc);
+	printf("seu numero Ã© %d o antecessor Ã© %d e o sucessor Ã© %d ", num, ant, suc);
 }
