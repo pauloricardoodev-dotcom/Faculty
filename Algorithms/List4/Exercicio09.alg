@@ -1,27 +1,27 @@
 algoritmo "EXERCICIO9"
-// FunÁ„o : GERADOR DE NUMEROS (n„o repetidos)
+// Fun√ß√£o : GERADOR DE NUMEROS (n√£o repetidos)
 // Autor : PAULO RICARDO R.A 25013765-2
 // Data : 09/10/2025
-// SeÁ„o de DeclaraÁıes
+// Se√ß√£o de Declara√ß√µes
 var
    v:vetor[0..19] de inteiro
    x, y, n, repetido:inteiro
 inicio
-// Gere randomicamente um vetor contendo 20 elementos do tipo inteiro (n„o repetidos)
-// e apresente ao usu·rio.
+// Gere randomicamente um vetor contendo 20 elementos do tipo inteiro (n√£o repetidos)
+// e apresente ao usu√°rio.
 
  escreval
  escreval
- escreval("    Ol· Seja bem vindo ao gerador de numeros n„o repetidos!")
+ escreval("    Ol√° Seja bem vindo ao gerador de numeros n√£o repetidos!")
 
  escreval
  escreval
 
  escreval("----------------------------------------------------------------------------------")
-  // gera numeros aleatorios sÛ que sem repetiÁ„o
+  // gera numeros aleatorios s√≥ que sem repeti√ß√£o
     para x de 0 ate 19 faca
        repita
-         n <- randi(100)  //eu tava usando 10 pra verificar, era t„o obvio que ia dar errado
+         n <- randi(100)  //eu tava usando 10 pra verificar, era t√£o obvio que ia dar errado
          repetido <- 0    // e mesmo assim demorei umas 2 horas pra descobrir
          para y de 0 ate x-1 faca // as vezes eu penso "porque eu gosto de programar?"
             se (v[y] = n) entao
@@ -32,7 +32,7 @@ inicio
       v[x] <- n
    fimpara
  //armazena e apresenta
-   escreval(" Segue n˙meros gerados(n„o repetidos): ")
+   escreval(" Segue n√∫meros gerados(n√£o repetidos): ")
    para x de 0 ate 19 faca
     escreval("   Numero: ",v[x])
    fimpara
