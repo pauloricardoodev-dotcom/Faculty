@@ -1,8 +1,8 @@
 algoritmo "EXERCICIO2"
-// Função : CONFIRMAÇÃO DE TAMANHO MINIMO
+// FunÃ§Ã£o : CONFIRMAÃ‡ÃƒO DE TAMANHO MINIMO
 // Autor : PAULO RICARDO R.A: 25013765-2
 // Data : 29/08/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
   string:caracter
   tam:inteiro
@@ -11,7 +11,7 @@ inicio
 escreval("Seja muito bem vindo!")
 
 escreval
-escreva("Insira uma palavra ou texto (no mínimo 5 caracteres): ")
+escreva("Insira uma palavra ou texto (no mÃ­nimo 5 caracteres): ")
 leia(string)
 
 tam <- compr(string)
