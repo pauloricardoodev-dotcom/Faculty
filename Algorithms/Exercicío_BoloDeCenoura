@@ -1,0 +1,86 @@
+algoritmo "semnome"
+// Fun��o :
+// Autor :
+// Data : 03/08/2025
+// Se��o de Declara��es 
+var
+    preco_oleo, oleo:real
+    preco_cenoura, cenoura:real
+    preco_ovo, ovo:real
+    preco_acucar, acucarM, acucarC:real
+    preco_farinha, farinha:real
+    preco_fermento, fermento:real
+    preco_chocolate, chocolate:real
+    preco_manteiga, manteiga:real
+    etapa1:real
+    etapa2:real
+    total:real
+    
+    pergunta_venda:caracter
+    confirmacao:caracter
+    negacao:caracter
+    preco_venda:real
+    valor_venda:real
+inicio
+ escreva("qual o valor do frasco de 1 litro de oleo? ")
+ leia(preco_oleo)
+ oleo <- preco_oleo/1000*120
+
+ escreva("qual o valor do kg da cenoura? ")
+ leia(preco_cenoura)
+ cenoura <- preco_cenoura/7*3
+
+ escreva("qual o valor da cartela de ovos (1 duzia)? ")
+ leia(preco_ovo)
+ ovo <- preco_ovo/12*4
+
+ escreva("qual o valor do saco de 1kg de acucar? ")
+ leia(preco_acucar)
+ acucarM <- preco_acucar/1000*320
+ acucarC <- preco_acucar/1000*150
+ 
+ escreva("qual o valor do saco de 1kg de farinha? ")
+ leia(preco_farinha)
+ farinha <- preco_farinha/1000*300
+
+ escreva("qual o valor do pote de fermento de 50 gramas? ")
+ leia(preco_fermento)
+ fermento <- preco_fermento/50*25
+
+ escreva("qual o valor do pote de chocolate de 200 gramas? ")
+ leia(preco_chocolate)
+ chocolate <- preco_chocolate/200*18
+
+ escreva("qual o valor do pote de manteiga de 500 gramas? ")
+ leia(preco_manteiga)
+ manteiga <- preco_manteiga/500*12
+ 
+ etapa1 <- oleo + cenoura + ovo + acucarM + farinha + fermento
+ etapa2 <- manteiga + chocolate + acucarC
+ 
+ total <- etapa1 + etapa2
+ 
+ escreva("valor calculado: ")
+ escreval(total:3:2)
+
+ escreva(" voc� ira vender este bolo? (responda com sim ou n�o)")
+ leia(pergunta_venda)
+ preco_venda <- total*0.20
+ confirmacao <- "sim"
+ negacao <- "n�o"
+ valor_venda <- total + preco_venda
+ 
+ se pergunta_venda = confirmacao entao
+    escreva("seu valor de venda �: ")
+    escreva(valor_venda:3:2)
+ senao
+  se pergunta_venda = negacao entao
+    escreva("bom apetite")
+    senao
+      escreva("por favor verifique erros de digita��o, acentua��o ou se sua resposta � sim ou n�o")
+      fimse
+  fimse
+ 
+ 
+fimalgoritmo
+
