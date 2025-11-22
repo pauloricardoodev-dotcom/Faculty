@@ -1,12 +1,12 @@
 algoritmo "EXERCICIO4"
-// Função : TUDO MINUSCULO
+// FunÃ§Ã£o : TUDO MINUSCULO
 // Autor : PAULO RICARDO R.A: 25013765-2
 // Data : 29/08/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
   string, menor:caracter
 inicio
-// Solicite uma string e exiba-a totalmente em maiúsculas.
+// Solicite uma string e exiba-a totalmente em maiÃºsculas.
 escreval("Seja bem vindo ao minusculador")
 escreval
 escreva("Escreva um texto que deva ficar todo em minusculo: ")
