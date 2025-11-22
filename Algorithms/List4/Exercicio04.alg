@@ -1,17 +1,17 @@
 algoritmo "EXERCICIO4"
-// Função : MEDIADOR DE IDADES
+// FunÃ§Ã£o : MEDIADOR DE IDADES
 // Autor : PAULO RICARDO R.A 25013765-2
 // Data : 09/10/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
    v: vetor[0..14] de inteiro
    n, x: inteiro
 inicio
 // Construir um algoritmo que Leia um vetor de 15 elementos, iniciando a partir do
-// último elemento (15o).
+// Ãºltimo elemento (15o).
  escreval
  escreval
- escreval("               Olá Seja bem vindo ao leitor inverso!")
+ escreval("               OlÃ¡ Seja bem vindo ao leitor inverso!")
 
  escreval
  escreval
@@ -21,7 +21,7 @@ inicio
  escreval
 
  para x de 14 ate 0 passo -1 faca
-     escreva("'    insira a ", x +1, "º idade: ")
+     escreva("'    insira a ", x +1, "Âº idade: ")
      leia(n)
 
      v[x] <- n
