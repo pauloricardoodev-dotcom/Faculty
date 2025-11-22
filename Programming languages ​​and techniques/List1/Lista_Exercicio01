@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <locale.h>
+
+main(){
+	setlocale(LC_ALL, "Portugese");
+	
+	int n1, n2;
+	int soma;
+	
+	printf("Seja bem vindo ao somador! ");
+	printf("por favor me diga o primeiro numero a ser somado: ");
+	scanf("%d", &n1);
+	printf("me diga o segundo numero a ser somado com o primeiro: ");
+	scanf("%d", &n2);
+	
+	soma = n1 + n2;
+	
+	printf("%d", soma);
+}
