@@ -1,12 +1,12 @@
 algoritmo "semnome"
-// Função : Volume Piramide
+// FunÃ§Ã£o : Volume Piramide
 // Autor : Paulo Ricardo
 // Data : 07/08/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  profund, altura: real
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 
 escreva("vamos descobrir apresente o volume da sua priamide!")
 escreval
@@ -16,5 +16,5 @@ leia(profund)
 escreva("insira a altura da sua piramide: ")
 leia(altura)
 
-escreva("seu resultado é: ", (profund * profund) * (altura / 3))
+escreva("seu resultado Ã©: ", (profund * profund) * (altura / 3))
 fimalgoritmo
