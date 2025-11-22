@@ -1,12 +1,12 @@
 algoritmo "semnome"
-// Função : Volume Cone
+// FunÃ§Ã£o : Volume Cone
 // Autor : Paulo Ricardo
 // Data : 07/08/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  raio, altura: real
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 
 escreva("vamos descobrir o volume do seu cone: ")
 escreval
@@ -16,5 +16,5 @@ leia(raio)
 escreva("insira a altura do seu cone: ")
 leia(altura)
 
-escreva("seu resultado é: ", (3.1416*(raio*raio)* altura) / 3)
+escreva("seu resultado Ã©: ", (3.1416*(raio*raio)* altura) / 3)
 fimalgoritmo
