@@ -1,8 +1,8 @@
 algoritmo "EXERCICIO2"
-// Função : APRESENTADOR INVERSO
+// FunÃ§Ã£o : APRESENTADOR INVERSO
 // Autor : PAULO RICARDO R.A 25013765-2
 // Data : 09/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
    v: vetor[0..20] de inteiro
    x, y, n: inteiro
@@ -11,7 +11,7 @@ inicio
 //apresente a soma dos mesmos.
  escreval
  escreval
- escreval("               Olá Seja bem vindo ao apresentador vetorial inverso!")
+ escreval("               OlÃ¡ Seja bem vindo ao apresentador vetorial inverso!")
  
  escreval
  escreval
@@ -21,7 +21,7 @@ inicio
  escreval
 
  para x de 0 ate 20 faca
-     escreva("'    insira o ", x +1, "º valor: ")
+     escreva("'    insira o ", x +1, "Âº valor: ")
      leia(n)
      
      v[x] <- n
