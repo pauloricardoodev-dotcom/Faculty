@@ -7,7 +7,6 @@ O objetivo é registrar a evolução no aprendizado de lógica de programação,
 
 A organização segue o formato de pastas por temas ou semanas de estudo:
 
-/
 ├── 1º Lisa/
 ├── 2º Lisa/
 ├── 3º Lisa/
