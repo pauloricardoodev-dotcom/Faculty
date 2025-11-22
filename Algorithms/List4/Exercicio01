@@ -1,0 +1,45 @@
+algoritmo "EXERCICIO1"
+// Fun��o : LEITOR DE VETOR
+// Autor : PAULO RICARDO R.A 25013765-2
+// Data : 09/10/2025
+// Se��o de Declara��es 
+var
+   v: vetor[1..10] de inteiro
+   x, n, soma: inteiro
+inicio
+// Construir algoritmo que Leia um vetor de 10 elementos e posteriormente
+//apresente a soma dos mesmos.
+ escreval
+ escreval
+
+ escreval("                      Ol� Seja bem vindo ao leitor vetorial!")
+ 
+ escreval
+ escreval
+ 
+ escreval("----------------------------------------------------------------------------------")
+ escreval
+ escreval
+
+ para x de 1 ate 10 faca
+     escreva("'     Por favor insira o ", x, " valor: ")
+     leia(n)
+     
+     v[x] <- n
+     soma <- soma + v[x]
+ fimpara
+
+ escreval
+ escreval
+ escreval("----------------------------------------------------------------------------------")
+ escreval
+ escreval
+ 
+ escreval("                            Soma dos 10 numeros: ", soma)
+ 
+ escreval
+ escreval
+ 
+ escreval("----------------------------------------------------------------------------------")
+fimalgoritmo
+
