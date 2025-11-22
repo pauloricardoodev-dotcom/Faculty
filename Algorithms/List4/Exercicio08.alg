@@ -1,19 +1,19 @@
 algoritmo "EXERCICIO8"
-// FunÁ„o : GERADOR DE NUMEROS
+// Fun√ß√£o : GERADOR DE NUMEROS
 // Autor : PAULO RICARDO R.A 25013765-2
 // Data : 09/10/2025
-// SeÁ„o de DeclaraÁıes
+// Se√ß√£o de Declara√ß√µes
 var
    v:vetor[0..13] de inteiro
    x:inteiro
    n:inteiro
 inicio
 // Gere randomicamente um vetor contendo 14 elementos do tipo inteiro e
-// apresente ao usu·rio.
+// apresente ao usu√°rio.
 
  escreval
  escreval
- escreval("    Ol· Seja bem vindo ao gerador de numeros!")
+ escreval("    Ol√° Seja bem vindo ao gerador de numeros!")
 
  escreval
  escreval
@@ -21,11 +21,11 @@ inicio
  escreval("----------------------------------------------------------------------------------")
   // gera numeros aleatorios
     para x de 0 ate 13 faca
-        n <- randi(7) // PQ 7? N sei eu gosto desse n˙mero
+        n <- randi(7) // PQ 7? N sei eu gosto desse n√∫mero
         v[x] <- n
     fimpara
  //armazena e apresenta
-   escreval(" Segue n˙meros gerados: ")
+   escreval(" Segue n√∫meros gerados: ")
    para x de 0 ate 13 faca
     escreval("Numero: ",v[x])
    fimpara
