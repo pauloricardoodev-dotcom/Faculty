@@ -1,14 +1,14 @@
 algoritmo "semnome"
-// Função :  volume cilindro
+// FunÃ§Ã£o :  volume cilindro
 // Autor : Paulo Ricardo
 // Data : 07/08/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 
  raio, altura: real
 
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 
 escreva("vamos decubrir o volume do seu cilindro")
 escreval
@@ -18,5 +18,5 @@ leia(raio)
 escreva("insira a altura do cilindro: ")
 leia(altura)
 
-escreva("o area do seu cilindro é: ", 3.1416 * (raio*raio) * altura)
+escreva("o area do seu cilindro Ã©: ", 3.1416 * (raio*raio) * altura)
 fimalgoritmo
