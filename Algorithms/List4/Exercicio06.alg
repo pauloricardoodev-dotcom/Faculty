@@ -1,19 +1,19 @@
 algoritmo "EXERCICIO6"
-// Função : APRESENTADOR NORMAL, DOBRADO E METADE
+// FunÃ§Ã£o : APRESENTADOR NORMAL, DOBRADO E METADE
 // Autor : PAULO RICARDO R.A 25013765-2
 // Data : 09/10/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
    v1, v2, v3: vetor[0..7] de real
    x, y: inteiro
    n:real
 inicio
-// Faça um algoritmo que Leia um vetor (V1) de 10 elementos numéricos e
-// preencha um outro (V2) contendo em cada célula, o dobro de V1. Em seguida,
-// preencha um terceiro vetor (V3) contendo em cada célula a metade de V1.
+// FaÃ§a um algoritmo que Leia um vetor (V1) de 10 elementos numÃ©ricos e
+// preencha um outro (V2) contendo em cada cÃ©lula, o dobro de V1. Em seguida,
+// preencha um terceiro vetor (V3) contendo em cada cÃ©lula a metade de V1.
  escreval
  escreval
- escreval("               Olá Seja bem vindo ao apresentador dobrado!")
+ escreval("               OlÃ¡ Seja bem vindo ao apresentador dobrado!")
 
  escreval
  escreval
@@ -23,7 +23,7 @@ inicio
  escreval
 
     para x de 0 ate 7 faca
-        escreva("'    insira o ", x +1, "º valor: ")
+        escreva("'    insira o ", x +1, "Âº valor: ")
         leia(n)
         v1[x] <- n
         v2[x] <- n + n
