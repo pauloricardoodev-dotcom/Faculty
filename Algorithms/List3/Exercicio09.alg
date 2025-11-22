@@ -1,8 +1,8 @@
 algoritmo "EXERCICIO9"
-// Função : APENAS VOGAIS
+// FunÃ§Ã£o : APENAS VOGAIS
 // Autor : PAULO RICARDO R.A: 25013765-2
 // Data : 30/08/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  frase, letraTemp, letrasPerm:caracter
  x, tam: inteiro
